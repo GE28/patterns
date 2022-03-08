@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es2021",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDirs": ["src", "__tests__"],
+    "baseUrl": "src",
+    "outDir": "lib",
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowUnreachableCode": false,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "emitDeclarationOnly": true,
+    "strictNullChecks": true,
+    "declaration": true,
+    "sourceMap": true,
+    "allowJs": false,
+    "paths": {
+      "@*": ["./*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "__tests__/**/*.spec.ts"]
+}

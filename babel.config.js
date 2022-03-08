@@ -5,7 +5,8 @@ function getTsConfigPaths() {
   const options = config.compilerOptions || { paths: {} };
   const { paths } = options;
 
-  const baseUrl = './' + options.baseUrl + '.';
+  const baseUrl =
+    './' + options.baseUrl.replace(/^\.\//, '').replace(/\/$/, '') + '.';
   const moduleResolverOptions = {};
 
   Object.keys(paths).forEach((key) => {

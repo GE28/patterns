@@ -41,5 +41,5 @@ module.exports = {
       }
     ]
   ],
-  ignore: ['./__tests__/**/*.spec.ts']
+  ignore: ['./src/__tests__/**/*.spec.ts']
 };

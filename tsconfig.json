@@ -4,7 +4,7 @@
     "target": "es2021",
     "module": "commonjs",
     "moduleResolution": "node",
-    "rootDirs": ["src", "__tests__"],
+    "rootDirs": ["src", "src/__tests__"],
     "baseUrl": "src",
     "outDir": "lib",
     "forceConsistentCasingInFileNames": true,
@@ -25,5 +25,5 @@
     }
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "__tests__/**/*.spec.ts"]
+  "exclude": ["node_modules", "src/__tests__/**/*"]
 }

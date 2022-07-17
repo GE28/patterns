@@ -21,7 +21,10 @@
     "sourceMap": true,
     "allowJs": false,
     "paths": {
-      "@*": ["./*"]
+      "@behavioral/*": ["./behavioral/*"],
+      "@creational/*": ["./creational/*"],
+      "@structural/*": ["./structural/*"],
+      "@gof/*": ["./gof/*"]
     }
   },
   "include": ["src/**/*"],

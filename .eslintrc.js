@@ -29,6 +29,7 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     'no-console': 'off',
     'no-param-reassign': 'off',
+    'max-len': ['error', { code: 80, tabWidth: 4 }],
     'arrow-parens': ['error', 'always']
   }
 };

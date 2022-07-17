@@ -14,5 +14,5 @@
     "noImplicitAny": true,
     "sourceMap": true
   },
-  "include": ["unit", "integration"]
+  "include": ["unit/**/*", "integration/**/*"]
 }

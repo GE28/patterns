@@ -81,6 +81,7 @@ describe('Product A Website class', () => {
     site.unsubscribe(client2);
     site.updateProductPrice(90);
 
-    expect(spiedStdout).toBeCalledWith(generateMessage(client2Name, productId));
+    expect(spiedStdout).toBeCalledWith(generateMessage(client1Name, productId));
+    expect(spiedStdout).not.toBeCalledWith(generateMessage(client2Name, productId));
   });
 });

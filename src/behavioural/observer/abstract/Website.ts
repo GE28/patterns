@@ -1,4 +1,5 @@
 // Subject
+import { isEqual } from 'lodash';
 import Product from '../abstract/Product';
 import User from './User';
 
@@ -11,7 +12,7 @@ export default abstract class Website {
 
   public /* final */ unsubscribe(user: User): void {
     this._subscribedUsers.forEach((u, index) => {
-      if (u === user) this._subscribedUsers.splice(index, 1);
+      if (isEqual(u, user)) this._subscribedUsers.splice(index, 1);
     });
   }
 

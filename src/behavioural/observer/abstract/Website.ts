@@ -1,6 +1,6 @@
 // Subject
 import { isEqual } from 'lodash';
-import Product from '../abstract/Product';
+import Product from './Product';
 import User from './User';
 
 export default abstract class Website {

@@ -1,6 +1,6 @@
 
 GoF patterns in TypeScript **(made avoiding Functional Programming)**
-[(11/23)](https://en.wikipedia.org/wiki/Design_Patterns#Patterns_by_type)
+[(13/23)](https://en.wikipedia.org/wiki/Design_Patterns#Patterns_by_type)
 
 - [ ] Creational
   - [ ] Abstract factory
@@ -10,16 +10,17 @@ GoF patterns in TypeScript **(made avoiding Functional Programming)**
   - [x] Singleton
 
 - [ ] Structural
+  - [ ] Adapter
   - [ ] Bridge
   - [x] Composite
   - [x] Decorator
-  - [ ] Facade
+  - [x] Façade
   - [ ] Flyweight
   - [x] Proxy
 
 - [ ]  Behavioral
   - [x] Chain of responsibility
-  - [ ] Command
+  - [x] Command
   - [ ] Interpreter
   - [ ] Iterator
   - [x] Mediator
@@ -29,4 +30,3 @@ GoF patterns in TypeScript **(made avoiding Functional Programming)**
   - [x] Strategy
   - [x] Template method
   - [ ] Visitor
-
